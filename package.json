@@ -1,0 +1,36 @@
+{
+  "name": "env-inject-file",
+  "version": "0.0.0",
+  "description": "Node command line utility that processes input file with environment placeholders to output file with populated environment variables",
+  "homepage": "https://github.com/eisberg-labs/env-inject-file",
+  "author": {
+    "name": "Eisberg Labs",
+    "email": "ana@eisberg-labs.com",
+    "url": "https://www.eisberg-labs.com"
+  },
+  "main": "env-inject-file.js",
+  "keywords": [
+    "env",
+    "inject",
+    "yaml",
+    "json"
+  ],
+  "dependencies": {
+    "nomnom": "1.8.1"
+  },
+  "scripts": {
+    "test": "export MY_TEST_ENV=\"dummy placeholder\" && mocha test/*.js"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "bin": {
+    "env-inject-file": "./bin/env-inject-file.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/eisberg-labs/env-inject-file.git"
+  },
+  "license": "MIT"
+}
