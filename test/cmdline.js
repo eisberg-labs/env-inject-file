@@ -14,9 +14,10 @@ describe('cmdline', function () {
 
         setTimeout(function (){
             fs.readFile(path.dirname(__filename) + '/out2.yml', function (err, out) {
+                if (err) console.error(err);
                 chai.expect(String(out)).to.equal('what: dummy placeholder');
                 done();
             })
-        }, 50);
+        }, 300);
     });
 });
