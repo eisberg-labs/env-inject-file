@@ -1,6 +1,6 @@
 {
   "name": "env-inject-file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node command line utility that processes input file with environment placeholders to output file with populated environment variables",
   "homepage": "https://github.com/eisberg-labs/env-inject-file",
   "author": {
