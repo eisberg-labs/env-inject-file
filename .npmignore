@@ -1,2 +1,6 @@
 /test
 /.travis.yml
+/.idea
+/.gitignore
+/.gitattributes
+/.editorconfig
